@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/WebService/WSJoseM?WSDL" uri="xml-resources/web-service-references/WSJoseM/wsdl/localhost_8080/WebService/WSJoseM.wsdl"/>
+    <system systemId="http://localhost:8080/WebService/WSJoseM?xsd=1" uri="xml-resources/web-service-references/WSJoseM/wsdl/localhost_8080/WebService/WSJoseM.xsd_1.xsd"/>
+    <system systemId="file:/home/junior/Documentos/ImplService%20(1).xml" uri="xml-resources/web-service-references/ImplService_20_1_/wsdl/ImplService%20(1).xml.wsdl"/>
+    <system systemId="http://192.168.100.140:8080/WSWilliamSdayle/ImplService?WSDL" uri="xml-resources/web-service-references/ImplService/wsdl/192.168.100.140_8080/WSWilliamSdayle/ImplService.wsdl"/>
+    <system systemId="http://192.168.100.140:8080/WSWilliamSdayle/ImplService?xsd=1" uri="xml-resources/web-service-references/ImplService/wsdl/192.168.100.140_8080/WSWilliamSdayle/ImplService.xsd_1.xsd"/>
+    <system systemId="file:/home/junior/Downloads/WSEduardo2.xml" uri="xml-resources/web-service-references/WSEduardo2/wsdl/WSEduardo2.xml.wsdl"/>
+    <system systemId="http://172.16.105.206:8080/WSWilliamSdayle/ImplService?wsdl" uri="xml-resources/web-service-references/ImplService/wsdl/172.16.105.206_8080/WSWilliamSdayle/ImplService.wsdl"/>
+    <system systemId="http://172.16.105.206:8080/WSWilliamSdayle/ImplService?xsd=1" uri="xml-resources/web-service-references/ImplService/wsdl/172.16.105.206_8080/WSWilliamSdayle/ImplService.xsd_1.xsd"/>
+    <system systemId="http://www.bancobdapi.somee.com/WSEduardo.asmx?WSDL" uri="xml-resources/web-service-references/WSEduardo/wsdl/www.bancobdapi.somee.com/WSEduardo.asmx.wsdl"/>
+    <system systemId="file:/home/junior/Downloads/WSRafael%20(1).xml" uri="xml-resources/web-service-references/WSRafael_20_1_/wsdl/WSRafael%20(1).xml.wsdl"/>
+    <system systemId="http://172.16.105.108:8080/WSRafael/WSRafael?xsd=1" uri="xml-resources/web-service-references/WSRafael_20_1_/wsdl/172.16.105.108_8080/WSRafael/WSRafael.xsd_1.xsd"/>
+</catalog>

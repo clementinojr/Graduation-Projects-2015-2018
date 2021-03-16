@@ -1,0 +1,71 @@
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\FirebaseApp.exe.config
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\FirebaseApp.exe
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\FirebaseApp.pdb
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csprojAssemblyReference.cache
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.Form1.resources
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.Properties.Resources.resources
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csproj.GenerateResource.cache
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csproj.CoreCompileInputs.cache
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.exe
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.pdb
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\FireSharp.dll
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\RestSharp.dll
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\bin\Debug\RestSharp.xml
+C:\Users\eduar\source\repos\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csproj.CopyComplete
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\FirebaseApp.exe.config
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\FirebaseApp.exe
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\FirebaseApp.pdb
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\FireSharp.dll
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\RestSharp.dll
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\bin\Debug\RestSharp.xml
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csprojAssemblyReference.cache
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.Form1.resources
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.Properties.Resources.resources
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csproj.GenerateResource.cache
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.csproj.CopyComplete
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.exe
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.pdb
+C:\Users\eduar\Desktop\FirebaseApp\FirebaseApp\obj\Debug\FirebaseApp.login.resources
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FirebaseApp.exe.config
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FirebaseApp.exe
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FirebaseApp.pdb
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FireSharp.dll
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\RestSharp.dll
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\RestSharp.xml
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csprojAssemblyReference.cache
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.Form1.resources
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.login.resources
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.Properties.Resources.resources
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csproj.GenerateResource.cache
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csproj.CopyComplete
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.exe
+C:\Users\eduar\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.pdb
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FirebaseApp.exe.config
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FirebaseApp.exe
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FirebaseApp.pdb
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FireSharp.dll
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\RestSharp.dll
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\bin\Debug\RestSharp.xml
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csprojAssemblyReference.cache
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.Form1.resources
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.login.resources
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.Properties.Resources.resources
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csproj.GenerateResource.cache
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.csproj.CopyComplete
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.exe
+C:\Users\Junior\Desktop\Trabalho do Fabio\FirebaseApp\obj\Debug\FirebaseApp.pdb

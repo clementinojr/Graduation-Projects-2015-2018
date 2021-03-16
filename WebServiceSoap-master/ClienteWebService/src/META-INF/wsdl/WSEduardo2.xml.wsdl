@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="WSEduardo" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="WSEduardo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="WSEduardo">
+      <s:element name="Ted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codigo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="valor" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Correntista">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CorrentistaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CorrentistaResult" type="tns:ObjectC" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ObjectC">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Valor" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TedSoapIn">
+    <wsdl:part name="parameters" element="tns:Ted" />
+  </wsdl:message>
+  <wsdl:message name="TedSoapOut">
+    <wsdl:part name="parameters" element="tns:TedResponse" />
+  </wsdl:message>
+  <wsdl:message name="CorrentistaSoapIn">
+    <wsdl:part name="parameters" element="tns:Correntista" />
+  </wsdl:message>
+  <wsdl:message name="CorrentistaSoapOut">
+    <wsdl:part name="parameters" element="tns:CorrentistaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSEduardoSoap">
+    <wsdl:operation name="Ted">
+      <wsdl:input message="tns:TedSoapIn" />
+      <wsdl:output message="tns:TedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Correntista">
+      <wsdl:input message="tns:CorrentistaSoapIn" />
+      <wsdl:output message="tns:CorrentistaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSEduardoSoap" type="tns:WSEduardoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ted">
+      <soap:operation soapAction="WSEduardo/Ted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Correntista">
+      <soap:operation soapAction="WSEduardo/Correntista" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSEduardoSoap12" type="tns:WSEduardoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ted">
+      <soap12:operation soapAction="WSEduardo/Ted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Correntista">
+      <soap12:operation soapAction="WSEduardo/Correntista" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSEduardo">
+    <wsdl:port name="WSEduardoSoap" binding="tns:WSEduardoSoap">
+      <soap:address location="http://172.16.105.152:64945/WSEduardo.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSEduardoSoap12" binding="tns:WSEduardoSoap12">
+      <soap12:address location="http://172.16.105.152:64945/WSEduardo.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

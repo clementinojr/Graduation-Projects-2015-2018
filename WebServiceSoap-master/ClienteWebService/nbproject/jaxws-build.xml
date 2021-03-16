@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-WSJoseM" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSJoseM"/>
+        <property name="wsdl-WSJoseM" location="xml-resources/web-service-references/WSJoseM/wsdl/localhost_8080/WebService/WSJoseM.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSJoseM" destdir="${build.generated.dir}/jax-wsCache/WSJoseM" wsdl="${wsdl-WSJoseM}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WebService/WSJoseM?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSJoseM}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSJoseM"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSJoseM">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSJoseM" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSJoseM"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/wspacote"/>
+    </target>
+    <target name="wsimport-client-ImplService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/ImplService"/>
+        <property name="wsdl-ImplService" location="xml-resources/web-service-references/ImplService/wsdl/172.16.105.206_8080/WSWilliamSdayle/ImplService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/ImplService" destdir="${build.generated.dir}/jax-wsCache/ImplService" wsdl="${wsdl-ImplService}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://172.16.105.206:8080/WSWilliamSdayle/ImplService?wsdl" xnocompile="true" xendorsed="true" package="cliente.sdayle">
+            <depends file="${wsdl-ImplService}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/ImplService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/ImplService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-ImplService" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/ImplService"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/cliente/sdayle"/>
+    </target>
+    <target name="wsimport-client-WSEduardo" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSEduardo"/>
+        <property name="wsdl-WSEduardo" location="xml-resources/web-service-references/WSEduardo/wsdl/www.bancobdapi.somee.com/WSEduardo.asmx.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSEduardo" destdir="${build.generated.dir}/jax-wsCache/WSEduardo" wsdl="${wsdl-WSEduardo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://www.bancobdapi.somee.com/WSEduardo.asmx?WSDL" xnocompile="true" xendorsed="true" package="clientes.eduardo">
+            <depends file="${wsdl-WSEduardo}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSEduardo"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSEduardo">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSEduardo" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSEduardo"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/clientes/eduardo"/>
+    </target>
+    <target name="wsimport-client-WSRafael_20_1_" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSRafael_20_1_"/>
+        <property name="wsdl-WSRafael_20_1_" location="xml-resources/web-service-references/WSRafael_20_1_/wsdl/WSRafael (1).xml.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSRafael_20_1_" destdir="${build.generated.dir}/jax-wsCache/WSRafael_20_1_" wsdl="${wsdl-WSRafael_20_1_}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="file:/home/junior/Downloads/WSRafael%20(1).xml" xnocompile="true" xendorsed="true" package="clientes.rafael">
+            <depends file="${wsdl-WSRafael_20_1_}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSRafael_20_1_"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSRafael_20_1_">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSRafael_20_1_" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSRafael_20_1_"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/clientes/rafael"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-WSJoseM, wsimport-client-ImplService, wsimport-client-WSEduardo, wsimport-client-WSRafael_20_1_"/>
+</project>
